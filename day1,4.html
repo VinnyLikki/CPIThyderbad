@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p class="liki">this is paragraph tag with class name</p> 
+   <p class="liki">this is another p tag</p>
+   <p class="liki">this is third p tag</p>
+   <script>
+   var a= document.getElementsByClassName("liki");
+   for(i=0;i<a.length;i++){
+    a[i].style.color="yellow";
+    a[i].style.backgroundColor="green";
+    a[i].style.width="300px";
+    a[i].style.border="2px solid red";
+   }
+   </script>
+</body>
+</html>
